@@ -1,0 +1,30 @@
+# Ignore node_modules and environment files for rpn-calculator
+rpn-calculator/node_modules/
+rpn-calculator/.env
+
+# Ignore build directory and generated files for weather-graph
+weather-graph/build/
+weather-graph/CMakeFiles/
+weather-graph/CMakeCache.txt
+weather-graph/cmake_install.cmake
+weather-graph/Makefile
+
+# Ignore compiled binaries and object files
+weather-graph/*.o
+weather-graph/*.out
+weather-graph/*.exe
+weather-graph/weather-graph
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+*.bak
+*.tmp
+*.~*
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs and debugging files
+weather-graph/*.log
+weather-graph/*.trace
